@@ -2,7 +2,7 @@
 
 namespace ClassLibrary1
 {
-    public class Class1
+    public class MyMaths
     {
         int x, y;
         public int add( int x, int  y)
