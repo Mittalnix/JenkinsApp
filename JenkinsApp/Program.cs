@@ -12,8 +12,9 @@ namespace JenkinsApp
             Console.WriteLine("Welcome To Jenkins");
             Console.ReadLine();
             Class1 cls = new Class1();
-            cls.add(10, 20);
-            cls.mup(10, 20);
+            Console.WriteLine(cls.add(10, 20));
+            Console.WriteLine(cls.mup(10, 20));
+            Console.ReadLine();
         }
     }
 }
